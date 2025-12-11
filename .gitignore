@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environment ----
+.env
+venv/
+.venv/
+apienv/
+ENV/
+env/
+pip-selfcheck.json
+pyvenv.cfg
+.Python
+[Bb]in/
+[Ii]nclude/
+[Ll]ib/
+[Ll]ib64/
+[Ll]ocal/
+[Ss]cripts/
+
+# ---- Django ----
+db.sqlite3
+staticfiles/
+media/
+
+# ---- VSCode ----
+.vscode/
+
+# ---- PyCharm ----
+.idea/
+
+# ---- Logs ----
+*.log
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Compiled ----
+*.so
+
+# ---- Environment Files ----
+*.env
+.env.*
